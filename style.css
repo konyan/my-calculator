@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+body{
+    background-color: #3FA9FC;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    
+}
+
+#calc-body{
+    width : 360px;
+    height: 640px;
+    background-color: #fff;
+    margin: 10% auto;
+    border-radius: 8px;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.4);
+    padding: 24px;
+}
+
+#display{
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    height: 180px;
+    display: block;
+    position: relative;
+}
+
+.total-val{
+    font-size: 64px;
+    font-weight: 700;
+    padding: 20px 0 ;
+    display: block;
+    position: relative;
+}
+
+.calc-val{
+    font-weight: 400;
+    font-size: 24px;
+    display: block;
+    text-align: left;
+    padding: 24px 0;
+}
+
+.btn{
+    background-color: #D9EFFF;
+    color : black;
+    padding: 22px 32px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 8px 8px 8px 0px;
+}
+
+
+.btn-two-spac{
+    flex: 2 0px;
+    flex-basis: 38%;
+    /* margin-left: 0; */
+}
+
+.btn-two-long{
+    padding: 72px 36px;
+    flex: 1 0px;
+    
+}
+
+.btn-one-spac{
+    flex-basis: 84px;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 8px;
+}
+
+.right-zero{
+    margin-right: 0;
+}
+
+.number{
+    width: 76.67%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.equal{
+    width: 23.33%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.different{
+    display: flex;
+    width: 100%;
+}
+
+.sign{
+    background-color: #3FA9FC;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
